@@ -24,6 +24,7 @@ body{
     align-items: center;
     text-align: center;
     justify-content: center;
+    width: auto;
     height: 100vh;
     padding-left: 4rem;
     padding-right: 4rem;
@@ -52,6 +53,15 @@ p{
 .btn:hover{
     background: white;
     color: #333;
+}
+
+.page .split{
+    display: flex;
+    justify-content:space-around;
+}
+.split .image{
+    width: 450px;
+    padding-right: 2rem;
 }
 #slide-1 h1{
     transform: translateY(-1500px);
